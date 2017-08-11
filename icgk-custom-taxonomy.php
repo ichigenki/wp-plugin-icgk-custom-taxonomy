@@ -6,7 +6,7 @@ Description: カスタムタクソノミーを作成
 Version: 1.0.0
 Author: ICHIGENKI
 Author URI: 
-License: 
+License: GPL2
 */
 
 $page_title = 'ICGK Create/Edit Custom Taxonomy';
