@@ -183,20 +183,6 @@ function icgk_custom_taxonomy_options() {
 
 
 // カスタム・タクソノミーを作成
-
-function create_icgk_tax() {
-	register_taxonomy(
-		'genre',
-		'book',
-		array(
-			'label' => __( 'Genre' ),
-			'rewrite' => array( 'slug' => 'genre' ),
-			'hierarchical' => true,
-		)
-	);
-}
-add_action( 'init', 'create_icgk_tax' );
-
 function icgk_create_custom_taxonomy() {
 	// データベースから既存のオプション値を取得
 	$option_name = 'icgk-custom-taxonomy';
